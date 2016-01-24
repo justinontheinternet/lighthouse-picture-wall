@@ -14,7 +14,9 @@ body {
     position: relative; }
     #team-members .member img {
       width: 200px;
-      height: 200px; }
+      height: 200px;
+      border-radius: 50%;
+      box-shadow: 5px 10px 50px -10px; }
     #team-members .member #arvinder {
       background-image: url("images/team/arvinder.jpg"); }
       #team-members .member #arvinder :hover {
