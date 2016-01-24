@@ -17,10 +17,19 @@ body {
     /*border: 1px solid gray;*/
     margin: 10px;
     padding: 6px;
+    position: relative;
 
     img {
       width: 200px;
       height: 200px;
+    }
+
+    #arvinder {
+      background-image: url('images/team/arvinder.jpg');
+
+      :hover {
+      background-image: url('images/team/arvinder_edit.jpg');
+      }
     }
 
     div.name {

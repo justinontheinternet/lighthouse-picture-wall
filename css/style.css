@@ -10,10 +10,15 @@ body {
     float: left;
     /*border: 1px solid gray;*/
     margin: 10px;
-    padding: 6px; }
+    padding: 6px;
+    position: relative; }
     #team-members .member img {
       width: 200px;
       height: 200px; }
+    #team-members .member #arvinder {
+      background-image: url("images/team/arvinder.jpg"); }
+      #team-members .member #arvinder :hover {
+        background-image: url("images/team/arvinder_edit.jpg"); }
     #team-members .member div.name {
       text-align: center; }
 
