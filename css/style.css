@@ -16,11 +16,14 @@ body {
       width: 200px;
       height: 200px;
       border-radius: 50%;
-      box-shadow: 5px 10px 50px -10px; }
+      box-shadow: 5px 10px 50px -10px;
+      transition: transform 3s; }
+    #team-members .member img:hover {
+      transform: rotate(360deg) rotateX(360deg) rotateY(360deg); }
     #team-members .member #arvinder {
       background-image: url("images/team/arvinder.jpg"); }
-      #team-members .member #arvinder :hover {
-        background-image: url("images/team/arvinder_edit.jpg"); }
+    #team-members .member #arvinder:hover {
+      background-image: url("images/team/arvinder_edit.jpg"); }
     #team-members .member div.name {
       text-align: center; }
 

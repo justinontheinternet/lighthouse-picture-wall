@@ -24,14 +24,19 @@ body {
       height: 200px;
       border-radius: 50%;
       box-shadow: 5px 10px 50px -10px;
+      transition: transform 3s;
+    }
+
+    img:hover { 
+      transform: rotate(360deg) rotateX(360deg) rotateY(360deg);
     }
 
     #arvinder {
       background-image: url('images/team/arvinder.jpg');
+    }
 
-      :hover {
+    #arvinder:hover {
       background-image: url('images/team/arvinder_edit.jpg');
-      }
     }
 
     div.name {
